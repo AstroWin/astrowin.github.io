@@ -1,114 +1,105 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AstroOS</title>
-    <link rel="stylesheet" href="index.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css"
-    />
-    <link rel="icon" href="res/favicon.ico" type="image/x-icon" />
-    <meta content="AstroOS" property="og:title" />
-    <meta content="AstroOS is a stripped down version of Windows." property="og:description" />
-    <meta content="astrowin.is-a.dev" property="og:url" />
-    <meta content="https://raw.githubusercontent.com/AstroWin/astrowin.github.io/main/res/logo.png" property="og:image" />
-    <meta content="#A020F0" data-react-helmet="true" name="theme-color" />
-    <meta
-      name="google-site-verification"
-      content="Thbs4NbWHYabHoc_vfyjjBsOGnHo4E9OIyvDky8nphM"
-    />
-  </head>
-  <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="index.html">
-          <img src="res/logo.png" alt="logo" />
-        </a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroOS - Windows Done Correctly</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-        <a
-          role="button"
-          class="navbar-burger"
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbarBasicExample"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a href="index.html" class="navbar-item"> Home </a>
-
-          <a href="https://github.com/AstroWin" class="navbar-item"> Github </a>
-
-          <a href="https://dsc.gg/enderdevcom" class="navbar-item"> Discord </a>
-
-           <a href="http://astrowin.is-a.dev/docs/" class="navbar-item"> Documentation </a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top animate__animated animate__fadeInDown">
+        <div class="container-fluid">
+            <a class="navbar-brand" href=""><img src="res/logo.png" alt="Logo" width="35" height="35"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="https://astrowin.is-a.dev/docs">Documentation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://dsc.gg/enderdevcom">Discord</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://x.com/astrowin_os">Twitter</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="buttons">
-              <a href="download/" class="button is-link">
-                <strong>Download</strong>
-              </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center text-light d-flex flex-column justify-content-center align-items-center">
+        <h1 class="animate__animated animate__bounceInDown">Windows Done Correctly</h1>
+        <p class="animate__animated animate__bounceInUp">AstroOS is an open-source project that enhances Windows. Optimizations include enhanced privacy, usability, performance, and changes for minimal stutters.</p>
+        <a href="" class="btn btn-warning btn-lg animate__animated animate__zoomIn btn-effect" data-bs-toggle="modal" data-bs-target="#modal">Download AstroOS</a>
+        <p class="mt-1 animate__animated animate__fadeIn">Windows 11</p>
+    </section>
+
+    <!-- Cards -->
+    <section class="key-features py-5">
+        <div class="container text-center">
+            <h2 class="section-title animate__animated animate__fadeInUp">Why you should choose AstroOS</h2>
+            <div class="row mt-5">
+                <!-- Feature 1 -->
+                <div class="col-md-4 mb-4 animate__animated animate__fadeInLeft">
+                    <div class="feature-box">
+                        <i class="fas fa-tachometer-alt fa-3x feature-icon"></i>
+                        <h4 class="feature-title mt-3">Boost Performance</h4>
+                        <p class="feature-text">Enhance your Windows experience by optimizing your Game and Operating System settings, increasing frames and maximizing performance.</p>
+                    </div>
+                </div>
+                <!-- Feature 2 -->
+                <div class="col-md-4 mb-4 animate__animated animate__fadeInUp">
+                    <div class="feature-box">
+                        <i class="fas fa-icons fa-3x feature-icon"></i>
+                        <h4 class="feature-title mt-3">Improved UI</h4>
+                        <p class="feature-text">AstroOS improves the user interface by adding better icons without hurting performance.
+                        </p>
+                        ‎ 
+                        ‎ ‎ 
+
+                    </div>
+                </div>
+                <!-- Feature 3 -->
+                <div class="col-md-4 mb-4 animate__animated animate__fadeInRight">
+                    <div class="feature-box">
+                        <i class="fas fa-code fa-3x feature-icon"></i>
+                        <h4 class="feature-title mt-3">Open-source</h4>
+                        <p class="feature-text">You can check the AstroOS source code on <a href="https://github.com/AstroWin/AstroOS">GitHub</a>.</p>
+                        ‎ 
+                        ‎ ‎ 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-theme="dark">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Download AstroOS</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                You should only download these when instructed to by the <a href="https://astrowin.is-a.dev/docs">install guide</a>.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary"><a style="text-decoration: none; color: white;" href="https://download.ameliorated.io/AME%20Wizard%20Beta.zip">AME Wizard</a></button>
+              <button type="button" class="btn btn-primary"><a style="text-decoration: none; color: white;" href="https://github.com/AstroWin/AstroOS/releases/latest/download/AstroOS-Playbook.apbx">AstroOS</a></button>
             </div>
           </div>
         </div>
       </div>
-    </nav>
-    <section class="section">
-      <div
-        style="justify-content: center; text-align: center"
-        class="container"
-      >
-        <h1 class="title">Introducing AstroOS</h1>
-        <p style="margin-top: 20px" class="subtitle">
-          AstroOS is a stripped down version of Windows.
-        </p>
-        <button style="width: 10%" class="button is-link"><a style="color: #fff" href="download/">Download</a></button>
-        <button style="width: 10%" class="button"><a style="color: #fff" href="https://ameliorated.io">AME Wizard</a></button>
-        <h6 style="margin-top: 5px" class="subtitle is-6">AstroOS 0.2.0</h6>
-        <figure class="image is-16by9">
-          <a href="https://www.youtube.com/watch?v=ZtaOuTsbhg4" target="_blank"
-            ><img
-              src="res/preview.png"
-              alt="preview"
-              style="border-radius: 15px; border: 1px solid #006eff"
-          /></a>
-        </figure>
-        <h1 style="margin-top: 100px" class="title">Why AstroOS</h1>
-        <p style="margin-top: 20px" class="subtitle">
-          AstroOS transforms your Windows experience by eliminating bloatware, enhancing performance, and prioritizing privacy. Say goodbye to sluggish performance and intrusive telemetry. With AstroOS, enjoy a streamlined, efficient, and faster Windows tailored for optimal user experience. Discover the power of a refined and responsive operating system with AstroOS.
-        </p>
-        <h1 style="margin-top: 100px" class="title">
-          Fully
-          <strong style="color: #01d0b2">Open source</strong>.
-        </h1>
-        <p style="margin-top: 20px" class="subtitle">
-          AstroOS is open source, with the GPL-3.0 license. View the source code <a href="https://github.com/AstroWin/AstroOS">here</a>.
-        </p>
-        <h1 style="margin-top: 100px" class="title">Rate AstroOS</h1>
-        <p style="margin-top: 20px" class="subtitle">
-          You can rate our product in our Discord server at
-          <a href="https://dsc.gg/enderdevcom">dsc.gg/enderdevcom</a>
-        </p>
-        <h1 style="margin-top: 100px" class="title">Have questions?</h1>
-        <p style="margin-top: 20px" class="subtitle">
-          You can ask them in our Discord server at
-          <a href="https://dsc.gg/enderdevcom">dsc.gg/enderdevcom</a>
-        </p>
-        <button style="width: 10%; margin-top: 100px" class="button is-link">
-          <a style="color: #fff" href="download/">Download</a>
-        </button>
-        <button style="width: 10%" class="button"><a style="color: #fff" href="https://ameliorated.io">AME Wizard</a></button>
-        <h6 style="margin-top: 5px" class="subtitle is-6">AstroOS 0.2.0</h6>
-      </div>
-    </section>
-  </body>
+
+    <!-- Footer -->
+    <footer class="text-center text-light py-4 animate__animated animate__fadeInUp">
+        <p>&copy; 2024 AstroWin. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
